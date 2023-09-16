@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/deepanshu-dabas/Downloads/code/src -I/home/deepanshu-dabas/Downloads/code/depends/imgui
+CXX_INCLUDES = -I"/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src" -I"/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui"
 
 CXX_FLAGS = -g
 

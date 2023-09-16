@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/deepanshu-dabas/Downloads/code/Assignment01"
-  "/home/deepanshu-dabas/Downloads/code/Assignment01.pdb"
+  "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/Assignment01"
+  "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/Assignment01.pdb"
   "CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o"
   "CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o.d"
   "CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o"

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/deepanshu-dabas/Downloads/code
+CMAKE_SOURCE_DIR = "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/deepanshu-dabas/Downloads/code/build
+CMAKE_BINARY_DIR = "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Assignment01.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/Assignment01.dir/progress.make
 include CMakeFiles/Assignment01.dir/flags.make
 
 CMakeFiles/Assignment01.dir/src/main.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/src/main.cpp.o: /home/deepanshu-dabas/Downloads/code/src/main.cpp
+CMakeFiles/Assignment01.dir/src/main.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/src/main.cpp
 CMakeFiles/Assignment01.dir/src/main.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment01.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/src/main.cpp.o -MF CMakeFiles/Assignment01.dir/src/main.cpp.o.d -o CMakeFiles/Assignment01.dir/src/main.cpp.o -c /home/deepanshu-dabas/Downloads/code/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment01.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/src/main.cpp.o -MF CMakeFiles/Assignment01.dir/src/main.cpp.o.d -o CMakeFiles/Assignment01.dir/src/main.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src/main.cpp"
 
 CMakeFiles/Assignment01.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/src/main.cpp > CMakeFiles/Assignment01.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src/main.cpp" > CMakeFiles/Assignment01.dir/src/main.cpp.i
 
 CMakeFiles/Assignment01.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/src/main.cpp -o CMakeFiles/Assignment01.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src/main.cpp" -o CMakeFiles/Assignment01.dir/src/main.cpp.s
 
 CMakeFiles/Assignment01.dir/src/utils.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/src/utils.cpp.o: /home/deepanshu-dabas/Downloads/code/src/utils.cpp
+CMakeFiles/Assignment01.dir/src/utils.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/src/utils.cpp
 CMakeFiles/Assignment01.dir/src/utils.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment01.dir/src/utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/src/utils.cpp.o -MF CMakeFiles/Assignment01.dir/src/utils.cpp.o.d -o CMakeFiles/Assignment01.dir/src/utils.cpp.o -c /home/deepanshu-dabas/Downloads/code/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment01.dir/src/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/src/utils.cpp.o -MF CMakeFiles/Assignment01.dir/src/utils.cpp.o.d -o CMakeFiles/Assignment01.dir/src/utils.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src/utils.cpp"
 
 CMakeFiles/Assignment01.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/src/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/src/utils.cpp > CMakeFiles/Assignment01.dir/src/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src/utils.cpp" > CMakeFiles/Assignment01.dir/src/utils.cpp.i
 
 CMakeFiles/Assignment01.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/src/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/src/utils.cpp -o CMakeFiles/Assignment01.dir/src/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/src/utils.cpp" -o CMakeFiles/Assignment01.dir/src/utils.cpp.s
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o: /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_glfw.cpp
+CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_glfw.cpp
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o -c /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_glfw.cpp"
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_glfw.cpp > CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_glfw.cpp" > CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.i
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_glfw.cpp -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_glfw.cpp" -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.s
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o: /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_opengl3.cpp
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o -c /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_opengl3.cpp"
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_opengl3.cpp > CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_opengl3.cpp" > CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_impl_opengl3.cpp" -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.s
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o: /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui.cpp
+CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/depends/imgui/imgui.cpp
 CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o -c /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui.cpp"
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui.cpp > CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui.cpp" > CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.i
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui.cpp -o CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui.cpp" -o CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.s
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o: /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_demo.cpp
+CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/depends/imgui/imgui_demo.cpp
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o -c /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_demo.cpp"
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_demo.cpp > CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_demo.cpp" > CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.i
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_demo.cpp -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_demo.cpp" -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.s
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o: /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_draw.cpp
+CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/depends/imgui/imgui_draw.cpp
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o -c /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_draw.cpp"
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_draw.cpp > CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_draw.cpp" > CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.i
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_draw.cpp -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_draw.cpp" -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.s
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o: CMakeFiles/Assignment01.dir/flags.make
-CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o: /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_widgets.cpp
+CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/depends/imgui/imgui_widgets.cpp
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o: CMakeFiles/Assignment01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o -c /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o -MF CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o -c "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_widgets.cpp"
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_widgets.cpp > CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_widgets.cpp" > CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.i
 
 CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deepanshu-dabas/Downloads/code/depends/imgui/imgui_widgets.cpp -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/depends/imgui/imgui_widgets.cpp" -o CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.s
 
 # Object files for target Assignment01
 Assignment01_OBJECTS = \
@@ -195,25 +195,25 @@ Assignment01_OBJECTS = \
 # External object files for target Assignment01
 Assignment01_EXTERNAL_OBJECTS =
 
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/src/main.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/src/utils.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/build.make
-/home/deepanshu-dabas/Downloads/code/Assignment01: /usr/lib/x86_64-linux-gnu/libGL.so
-/home/deepanshu-dabas/Downloads/code/Assignment01: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/deepanshu-dabas/Downloads/code/Assignment01: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
-/home/deepanshu-dabas/Downloads/code/Assignment01: /usr/lib/x86_64-linux-gnu/libGLEW.so
-/home/deepanshu-dabas/Downloads/code/Assignment01: CMakeFiles/Assignment01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deepanshu-dabas/Downloads/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/deepanshu-dabas/Downloads/code/Assignment01"
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/src/main.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/src/utils.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/build.make
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: /usr/lib/x86_64-linux-gnu/libGL.so
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: /usr/lib/x86_64-linux-gnu/libGLEW.so
+/home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01: CMakeFiles/Assignment01.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable \"/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/Assignment01\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Assignment01.dir/build: /home/deepanshu-dabas/Downloads/code/Assignment01
+CMakeFiles/Assignment01.dir/build: /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment01/Assignment01
 .PHONY : CMakeFiles/Assignment01.dir/build
 
 CMakeFiles/Assignment01.dir/clean:
@@ -221,6 +221,6 @@ CMakeFiles/Assignment01.dir/clean:
 .PHONY : CMakeFiles/Assignment01.dir/clean
 
 CMakeFiles/Assignment01.dir/depend:
-	cd /home/deepanshu-dabas/Downloads/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/deepanshu-dabas/Downloads/code /home/deepanshu-dabas/Downloads/code /home/deepanshu-dabas/Downloads/code/build /home/deepanshu-dabas/Downloads/code/build /home/deepanshu-dabas/Downloads/code/build/CMakeFiles/Assignment01.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01" "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01" "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build" "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build" "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment01/build/CMakeFiles/Assignment01.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Assignment01.dir/depend
 
