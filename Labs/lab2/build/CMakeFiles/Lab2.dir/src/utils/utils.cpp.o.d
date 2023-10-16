@@ -1,9 +1,9 @@
 CMakeFiles/Lab2.dir/src/utils/utils.cpp.o: \
- /home/deepanshu-dabas/Downloads/lab2/src/utils/utils.cpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/src/utils/utils.cpp \
  /usr/include/stdc-predef.h \
- /home/deepanshu-dabas/Downloads/lab2/src/utils/utils.hpp \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imgui.h \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imconfig.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/src/utils/utils.hpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imgui.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h /usr/include/string.h \
@@ -18,8 +18,8 @@ CMakeFiles/Lab2.dir/src/utils/utils.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imgui_impl_glfw.h \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imgui_impl_opengl3.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imgui_impl_glfw.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imgui_impl_opengl3.h \
  /usr/include/glm/vec3.hpp /usr/include/glm/ext/vector_bool3.hpp \
  /usr/include/glm/detail/type_vec3.hpp \
  /usr/include/glm/detail/qualifier.hpp /usr/include/glm/detail/setup.hpp \

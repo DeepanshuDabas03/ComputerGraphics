@@ -1,7 +1,7 @@
 CMakeFiles/Lab2.dir/src/camera/camera.cpp.o: \
- /home/deepanshu-dabas/Downloads/lab2/src/camera/camera.cpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/src/camera/camera.cpp \
  /usr/include/stdc-predef.h \
- /home/deepanshu-dabas/Downloads/lab2/src/camera/camera.hpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/src/camera/camera.hpp \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
  /usr/include/c++/12/cmath \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -216,14 +216,14 @@ CMakeFiles/Lab2.dir/src/camera/camera.cpp.o: \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
  /usr/include/glm/detail/func_integer.inl /usr/include/GL/glew.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/deepanshu-dabas/Downloads/lab2/src/globals.hpp \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imgui.h \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imconfig.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/src/globals.hpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imgui.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/deepanshu-dabas/Downloads/lab2/src/utils/utils.hpp \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imgui_impl_glfw.h \
- /home/deepanshu-dabas/Downloads/lab2/depends/imgui/imgui_impl_opengl3.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/src/utils/utils.hpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imgui_impl_glfw.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab2/depends/imgui/imgui_impl_opengl3.h \
  /usr/include/glm/gtc/matrix_transform.hpp \
  /usr/include/glm/ext/matrix_projection.hpp \
  /usr/include/glm/gtc/constants.hpp \

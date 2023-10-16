@@ -17,57 +17,91 @@ Mesh *createSphereMesh()
 
 	/*
 		c=(0,0,0)
-		x(φ,θ) = h + r sin(φ) cos(θ) 
+		x(φ,θ) = h + r sin(φ) cos(θ)
 		y(φ,θ) = k + r sin(φ) sin(θ)
 		z(φ,θ) = l + r cos(φ)
 		=>  x=rsin(φ)cos(θ)
 			y=rsin(φ)sin(θ)
 			z=rcos(φ)
 	*/
-	float r = 0.5f;
-	int numSlices = 15, numSegments = 30;
-	int i, j, nxt_i, nxt_j, numvertices = numSegments + 1;
-	float u, v;
-	float x, y, z;
-	float theta, phi;
-	std::vector<float> vertex;
-	std::vector<unsigned int> idx;
-	for (int i = 0; i <= numSlices; i++)
-	{
-		for (int j = 0; j <= numSegments; j++)
-		{
-			u = j / (1.0f * numSegments);
-			v = i / (1.0f * numSlices);
-			theta = 2.0f * glm::pi<float>() * u;
-			// 0 ≤ θ < 2π, θ = 2*pi*(j/numSegments)
-			phi = glm::pi<float>() * v;
-			// 0 ≤ φ ≤ π, φ = pi*(i/numSlices)
-			x = r * std::sin(phi) * std::cos(theta);
-			y = r * std::sin(phi) * std::sin(theta);
-			z = r * std::cos(phi);
+	std::vector<float> vertices;
+    std::vector<float> normals;
+    std::vector<float> texCoords;
+    float radius = 2.0f;
+    int sectorCount = 30;
+    int stackCount = 30;
+    // Bind shader variables
 
-			vertex.push_back(x);
-			vertex.push_back(y);
-			vertex.push_back(z);
-		}
-	}
-	for (i = 0; i < numSlices; i++)
-	{
-		for (j = 0; j < numSegments; j++)
-		{
-			nxt_i = i + 1;
-			nxt_j = j + 1;
+    // Initialize lists to store vertices, normals, and texture coordinates
+    
 
-			idx.push_back((i * numvertices) + j);
-			idx.push_back((nxt_i * numvertices) + j);
-			idx.push_back((i * numvertices) + nxt_j);
-			idx.push_back((nxt_i * numvertices) + j);
-			idx.push_back((i * numvertices) + nxt_j);
-			idx.push_back((nxt_i * numvertices) + nxt_j);
-		}
-	}
+    float sectorStep = 2 * M_PI / sectorCount;
+    float stackStep = M_PI / stackCount;
+    float sectorAngle, stackAngle;
+    float lengthInv = 1.0f / radius;
 
-	return new Mesh(vertex.data(), idx.data(), vertex.size() / 3, idx.size());
+    for (int i = 0; i <= stackCount; ++i)
+    {
+        stackAngle = M_PI / 2 - i * stackStep;
+        float xy = radius * cosf(stackAngle);
+        float z = radius * sinf(stackAngle);
+
+        for (int j = 0; j <= sectorCount; ++j)
+        {
+            sectorAngle = j * sectorStep;
+            float x = xy * cosf(sectorAngle);
+            float y = xy * sinf(sectorAngle);
+            vertices.push_back(x);
+            vertices.push_back(y);
+            vertices.push_back(z);
+
+            float nx = x * lengthInv;
+            float ny = y * lengthInv;
+            float nz = z * lengthInv;
+            normals.push_back(nx);
+            normals.push_back(ny);
+            normals.push_back(nz);
+
+            float s = static_cast<float>(j) / sectorCount;
+            float t = static_cast<float>(i) / stackCount;
+            texCoords.push_back(s);
+            texCoords.push_back(t);
+        }
+    }
+
+    // Initialize index lists
+    std::vector<unsigned int> indices;
+    std::vector<int> lineIndices;
+    int k1, k2;
+
+    for (int i = 0; i < stackCount; ++i)
+    {
+        k1 = i * (sectorCount + 1); // Beginning of the current stack
+        k2 = k1 + sectorCount + 1;  // Beginning of the next stack
+
+        for (int j = 0; j < sectorCount; ++j, ++k1, ++k2)
+        {
+            // Add triangles
+            indices.push_back(k1);
+            indices.push_back(k2);
+            indices.push_back(k1 + 1);
+            indices.push_back(k1 + 1);
+            indices.push_back(k2);
+            indices.push_back(k2 + 1);
+
+            // Add line indices
+            lineIndices.push_back(k1);
+            lineIndices.push_back(k2);
+
+            if (i != 0)
+            {
+                lineIndices.push_back(k1);
+                lineIndices.push_back(k1 + 1);
+            }
+        }
+    }
+
+	return new Mesh(vertices.data(), indices.data(), vertices.size() / 3, indices.size());
 }
 
 int main(int, char **)
