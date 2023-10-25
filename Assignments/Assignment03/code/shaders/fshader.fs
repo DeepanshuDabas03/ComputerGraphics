@@ -34,7 +34,7 @@ void main(void) {
 
         } else {
                 if(abs(angle) <= abs(outerCutOff)) {
-                        fColor = (Ia + Id + Is) * f;
+                        fColor = Ia + (Id + Is) * f;
                 } else {
                         fColor = vec3(0.0, 0.0, 0.0);
 
