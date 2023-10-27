@@ -7,6 +7,7 @@
 #include "material.h"
 #include "object.h"
 #include "sphere.h"
+#include "triangle.h"
 #include "lightsource.h"
 #include "pointlightsource.h"
 
@@ -47,11 +48,16 @@ int main(int, char**)
     m->color = Color(0.1, 0.7, 0.0);
     m->ka = 0.1;
     m->kd = 0.9;
-    
-    Object *sphere = new Sphere(Vector3D(2, 0, -10), 3, m);
-    world->addObject(sphere);
+    m->ks=  0.7;
+    m->n =  10;
+    // Initialize the material properties, such as ka, kd, ks,n
 
-    LightSource *light = new PointLightSource(world, Vector3D(0, 1, 0), Color(1, 1, 1));
+    Object *triangle =new Triangle(Vector3D(2, 0, 0), Vector3D(0, 2, 0), Vector3D(-2, 1, 0), m);
+    world->addObject(triangle);
+    // Used 3D Calculator for visualising 3D coordinates, link for same https://www.geogebra.org/3d?lang=en f
+    Object *Triangle1=new Triangle(Vector3D(10, 0, -3), Vector3D(0, 5, -3), Vector3D(-10, 5, -3), m);
+    world->addObject(Triangle1);
+    LightSource *light = new PointLightSource(world, Vector3D(0,1, 1), Color(1, 1, 1));
     world->addLight(light);
 
     engine = new RenderEngine(world, camera);

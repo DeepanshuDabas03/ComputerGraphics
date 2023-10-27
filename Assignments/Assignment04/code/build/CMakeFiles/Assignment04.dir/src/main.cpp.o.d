@@ -362,6 +362,7 @@ CMakeFiles/Assignment04.dir/src/main.cpp.o: \
  /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment04/code/src/material.h \
  /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment04/code/src/lightsource.h \
  /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment04/code/src/sphere.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment04/code/src/triangle.h \
  /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment04/code/src/pointlightsource.h \
  /home/deepanshu-dabas/Documents/Computer\ Graphics/Assignments/Assignment04/code/src/../depends/stb/stb_image.h \
  /usr/include/c++/12/stdlib.h \

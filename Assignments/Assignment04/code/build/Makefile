@@ -465,6 +465,30 @@ src/sphere.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment04.dir/build.make CMakeFiles/Assignment04.dir/src/sphere.cpp.s
 .PHONY : src/sphere.cpp.s
 
+src/triangle.o: src/triangle.cpp.o
+.PHONY : src/triangle.o
+
+# target to build an object file
+src/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment04.dir/build.make CMakeFiles/Assignment04.dir/src/triangle.cpp.o
+.PHONY : src/triangle.cpp.o
+
+src/triangle.i: src/triangle.cpp.i
+.PHONY : src/triangle.i
+
+# target to preprocess a source file
+src/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment04.dir/build.make CMakeFiles/Assignment04.dir/src/triangle.cpp.i
+.PHONY : src/triangle.cpp.i
+
+src/triangle.s: src/triangle.cpp.s
+.PHONY : src/triangle.s
+
+# target to generate assembly for a file
+src/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment04.dir/build.make CMakeFiles/Assignment04.dir/src/triangle.cpp.s
+.PHONY : src/triangle.cpp.s
+
 src/utility.o: src/utility.cpp.o
 .PHONY : src/utility.o
 
@@ -588,6 +612,9 @@ help:
 	@echo "... src/sphere.o"
 	@echo "... src/sphere.i"
 	@echo "... src/sphere.s"
+	@echo "... src/triangle.o"
+	@echo "... src/triangle.i"
+	@echo "... src/triangle.s"
 	@echo "... src/utility.o"
 	@echo "... src/utility.i"
 	@echo "... src/utility.s"

@@ -10,21 +10,24 @@
 class World
 {
 private:
-	std::vector<Object*> objectList;
-	std::vector<LightSource*> lightSourceList;
+	std::vector<Object *> objectList;
+	std::vector<LightSource *> lightSourceList;
 
 	Color ambient;
-	Color background; //Background color to shade rays that miss all objects
+	Color background; // Background color to shade rays that miss all objects
 
 public:
-	World():
-		objectList(0), lightSourceList(0), ambient(0), background(0)
-	{}
-	void setBackground(const Color& bk) { background = bk;}
-	Color getbackgeound() { return background;}
-	void setAmbient(const Color& amb) {ambient = amb;}
-	Color getAmbient() {return ambient;}
-	void addLight(LightSource* ls)
+	World() : objectList(0), lightSourceList(0), ambient(0), background(0)
+	{
+	}
+	void setBackground(const Color &bk) { background = bk; }
+	Color getbackgeound() { return background; }
+	void setAmbient(const Color &amb) { ambient = amb; }
+	Color getAmbient() { return ambient; }
+	std::vector<LightSource *> getLightSourceList() { return lightSourceList; }
+	// To get the list of light sources in the world in order to compute the shading
+
+	void addLight(LightSource *ls)
 	{
 		lightSourceList.push_back(ls);
 	}
@@ -32,7 +35,7 @@ public:
 	{
 		objectList.push_back(obj);
 	}
-	float firstIntersection(Ray& ray);
-	Color shade_ray(Ray& ray);
+	float firstIntersection(Ray &ray);
+	Color shade_ray(Ray &ray);
 };
 #endif

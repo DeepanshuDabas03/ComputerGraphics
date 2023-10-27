@@ -20,6 +20,7 @@ set(SOURCES
 		"src/ray.cpp"
 		"src/renderengine.cpp"
 		"src/sphere.cpp"
+		"src/triangle.cpp"
 		"src/utility.cpp"
 		"src/vector3D.cpp"
 		"src/world.cpp"

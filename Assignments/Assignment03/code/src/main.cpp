@@ -66,7 +66,7 @@ int main(int, char **)
     float angle=glm::radians(15.0f); 
     if(lightDirection==-1 || cutoff==-1 || lightPositionLocation==-1)
     {
-        cout<<"Could not bind location\n";
+        cout<<"Could not bind location\point light sourcen";
     }
    
     // Pass the values to the shader

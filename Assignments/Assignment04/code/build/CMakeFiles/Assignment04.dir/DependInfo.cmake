@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/ray.cpp" "CMakeFiles/Assignment04.dir/src/ray.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/ray.cpp.o.d"
   "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/renderengine.cpp" "CMakeFiles/Assignment04.dir/src/renderengine.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/renderengine.cpp.o.d"
   "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/sphere.cpp" "CMakeFiles/Assignment04.dir/src/sphere.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/sphere.cpp.o.d"
+  "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/triangle.cpp" "CMakeFiles/Assignment04.dir/src/triangle.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/triangle.cpp.o.d"
   "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/utility.cpp" "CMakeFiles/Assignment04.dir/src/utility.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/utility.cpp.o.d"
   "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/vector3D.cpp" "CMakeFiles/Assignment04.dir/src/vector3D.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/vector3D.cpp.o.d"
   "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment04/code/src/world.cpp" "CMakeFiles/Assignment04.dir/src/world.cpp.o" "gcc" "CMakeFiles/Assignment04.dir/src/world.cpp.o.d"
