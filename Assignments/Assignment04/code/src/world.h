@@ -36,6 +36,8 @@ public:
 		objectList.push_back(obj);
 	}
 	float firstIntersection(Ray &ray);
+
 	Color shade_ray(Ray &ray);
+	
 };
 #endif

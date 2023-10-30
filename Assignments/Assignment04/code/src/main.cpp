@@ -49,7 +49,7 @@ int main(int, char**)
     m->ka = 0.1;
     m->kd = 0.9;
     m->ks=  0.7;
-    m->n =  10;
+    m->n =  16;
     // Initialize the material properties, such as ka, kd, ks,n
 
     Object *triangle =new Triangle(Vector3D(2, 0, 0), Vector3D(0, 2, 0), Vector3D(-2, 1, 0), m);
