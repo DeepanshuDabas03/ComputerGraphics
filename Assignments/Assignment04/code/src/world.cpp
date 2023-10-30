@@ -16,3 +16,4 @@ Color World::shade_ray(Ray& ray)
 		return (ray.intersected())->shade(ray);
 	return background;
 }
+

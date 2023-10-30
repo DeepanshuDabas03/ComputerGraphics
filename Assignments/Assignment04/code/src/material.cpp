@@ -2,7 +2,7 @@
 #include "material.h"
 #include <glm/glm.hpp>
 #include <bits/stdc++.h>
-Color Material::shade(const Ray &incident, const bool isSolid) const
+Color Material::shade(const Ray &incident, const bool isSolid, int depth = 0) const
 {
 	Vector3D normal = unitVector(incident.getNormal());
 	// get the normal of the surface
@@ -36,6 +36,36 @@ Color Material::shade(const Ray &incident, const bool isSolid) const
 			return ambient;
 		}
 	}
+
+	if (depth <= 0)
+	{
+		return Color(0); // Return no color for rays that have reached the maximum recursion depth
+	}
+
+	Color reflectionColor(0);
+	Color refractionColor(0);
+
+	// Reflection
+	if (kr > 0)
+	{
+		Vector3D reflectionDirection = incident.getDirection() - 2 * dotProduct(normal, incident.getDirection()) * normal;
+		reflectionDirection.normalize();
+		Ray reflectionRay(incident.getPosition() + normal * 0.01, reflectionDirection);
+		reflectionColor = world->shade_ray(reflectionRay, depth - 1);
+	}
+
+	// Refraction
+	if (kt > 0)
+	{
+		// Refraction calculations
+		// ... (code for refraction calculations)
+
+		Ray refractedRay(incident.getPosition(), refractedDirection);
+	}
+
+	// Combine colors: ambient, diffuse, specular, reflection, and refraction
+	Color finalColor = ambient + diffuse + specular + reflectionColor + refractionColor;
+
+	return finalColor;
 	return ambient + diffuse + specular;
 }
-
