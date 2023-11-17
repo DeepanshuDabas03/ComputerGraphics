@@ -1,8 +1,8 @@
 CMakeFiles/lab1.dir/depends/imgui/imgui_demo.cpp.o: \
- /home/deepanshu-dabas/Documents/lab1/depends/imgui/imgui_demo.cpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab1/depends/imgui/imgui_demo.cpp \
  /usr/include/stdc-predef.h \
- /home/deepanshu-dabas/Documents/lab1/depends/imgui/imgui.h \
- /home/deepanshu-dabas/Documents/lab1/depends/imgui/imconfig.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab1/depends/imgui/imgui.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab1/depends/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h /usr/include/string.h \

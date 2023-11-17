@@ -7,7 +7,6 @@
  */
 
 #include "utils.h"
-
 //Globals
 int screen_width=720, screen_height=480;
 GLint vModel_uniform, vView_uniform, vProjection_uniform, vColor_uniform;

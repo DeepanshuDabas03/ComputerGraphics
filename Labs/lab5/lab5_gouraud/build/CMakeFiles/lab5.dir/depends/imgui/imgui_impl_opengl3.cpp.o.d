@@ -1,11 +1,11 @@
 CMakeFiles/lab5.dir/depends/imgui/imgui_impl_opengl3.cpp.o: \
- /home/deepanshu-dabas/Downloads/lab5_gouraud/depends/imgui/imgui_impl_opengl3.cpp \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab5/lab5_gouraud/depends/imgui/imgui_impl_opengl3.cpp \
  /usr/include/stdc-predef.h \
- /home/deepanshu-dabas/Downloads/lab5_gouraud/depends/imgui/imgui.h \
- /home/deepanshu-dabas/Downloads/lab5_gouraud/depends/imgui/imconfig.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h /usr/include/string.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab5/lab5_gouraud/depends/imgui/imgui.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab5/lab5_gouraud/depends/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -17,7 +17,7 @@ CMakeFiles/lab5.dir/depends/imgui/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/deepanshu-dabas/Downloads/lab5_gouraud/depends/imgui/imgui_impl_opengl3.h \
+ /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab5/lab5_gouraud/depends/imgui/imgui_impl_opengl3.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -31,13 +31,13 @@ CMakeFiles/lab5.dir/depends/imgui/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glew.h \
- /usr/include/c++/12/cstddef \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
- /usr/include/c++/12/pstl/pstl_config.h /usr/include/c++/12/cstdint \
+ /usr/include/c++/13/cstddef \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+ /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/cstdint \
  /usr/include/GL/glu.h /usr/include/GL/gl.h
