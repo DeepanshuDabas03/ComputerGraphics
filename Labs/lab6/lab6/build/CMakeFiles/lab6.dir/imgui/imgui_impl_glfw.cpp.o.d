@@ -1,11 +1,11 @@
 CMakeFiles/lab6.dir/imgui/imgui_impl_glfw.cpp.o: \
- /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab6/lab6/imgui/imgui_impl_glfw.cpp \
+ /home/deepanshu/Documents/ComputerGraphics/Labs/lab6/lab6/imgui/imgui_impl_glfw.cpp \
  /usr/include/stdc-predef.h \
- /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab6/lab6/imgui/imgui.h \
- /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab6/lab6/imgui/imconfig.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \
+ /home/deepanshu/Documents/ComputerGraphics/Labs/lab6/lab6/imgui/imgui.h \
+ /home/deepanshu/Documents/ComputerGraphics/Labs/lab6/lab6/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -17,9 +17,9 @@ CMakeFiles/lab6.dir/imgui/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/deepanshu-dabas/Documents/Computer\ Graphics/Labs/lab6/lab6/imgui/imgui_impl_glfw.h \
+ /home/deepanshu/Documents/ComputerGraphics/Labs/lab6/lab6/imgui/imgui_impl_glfw.h \
  /usr/include/GLFW/glfw3.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \

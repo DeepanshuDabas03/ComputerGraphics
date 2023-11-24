@@ -59,14 +59,14 @@ int main(int, char **)
     int lightColorLocation = glGetUniformLocation(shaderProgram, "lightColor");
     int lightDirection=glGetUniformLocation(shaderProgram,"lightDir");
     int cutoff=glGetUniformLocation(shaderProgram,"cutoffAngle");
-    glm::vec3 direction=glm::vec3(-1.00f,-1.00f,0.00f);
+    glm::vec3 direction=glm::vec3(-1.00f,-1.00f,-1.00f);
     // Set the light position and color
-    glm::vec3 lightPosition = glm::vec3(15.0f, 15.0f, 12.0f); // Set your desired light position
+    glm::vec3 lightPosition = glm::vec3(5.0f, 5.0f, 5.0f); // Set your desired light position
     glm::vec3 lightColor = glm::vec3(0.0f, 1.0f, 0.0f);    // set light color blue for part 1, green for part 2   
     float angle=glm::radians(15.0f); 
     if(lightDirection==-1 || cutoff==-1 || lightPositionLocation==-1)
     {
-        cout<<"Could not bind location\point light sourcen";
+        cout<<"Could not bind location point light source \n";
     }
    
     // Pass the values to the shader

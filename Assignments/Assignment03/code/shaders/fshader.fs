@@ -15,7 +15,7 @@ vec3 kd = vec3(0.5, 0.6, 0.4);
 vec3 ka = vec3(1.0, 1.0, 1.0);
 float spec_exp = 32.0;
 float angle = acos(dot(-fragmentDirection, normalize(lightDirn)));
-float outerCutOff = cutoff + radians(5.0);
+float outerCutOff = cutoff + radians(10.0);
 vec3 Ia = ka * lColor;
 
     // Calculate diffuse component

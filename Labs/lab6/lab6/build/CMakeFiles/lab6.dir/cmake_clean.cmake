@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/deepanshu-dabas/Documents/Computer Graphics/Labs/lab6/lab6/lab6"
-  "/home/deepanshu-dabas/Documents/Computer Graphics/Labs/lab6/lab6/lab6.pdb"
+  "../lab6"
+  "../lab6.pdb"
   "CMakeFiles/lab6.dir/imgui/imgui.cpp.o"
   "CMakeFiles/lab6.dir/imgui/imgui.cpp.o.d"
   "CMakeFiles/lab6.dir/imgui/imgui_demo.cpp.o"

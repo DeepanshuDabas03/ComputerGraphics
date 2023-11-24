@@ -1,4 +1,4 @@
-# Install script for directory: /home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment03/code
+# Install script for directory: /home/deepanshu/Documents/ComputerGraphics/Assignments/Assignment03/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/deepanshu-dabas/Documents/Computer Graphics/Assignments/Assignment03/code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/deepanshu/Documents/ComputerGraphics/Assignments/Assignment03/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

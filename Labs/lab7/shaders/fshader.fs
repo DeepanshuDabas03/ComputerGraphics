@@ -28,7 +28,7 @@ void main(void) {
     // Load and transform the normal from the normal map into tangent space
     vec3 normalMapColor = texture(normalMap, TexCoord).xyz;
     vec3 normal = normalize(normalMapColor * 2.0 - 1.0);
-    normal = normalize(TBN * normal);
+    normal = normalize( normal);
     // Transform the light vector and eye vector into tangent space
     vec3 tLight = normalize(TBN * l);
     vec3 tView = normalize(TBN * e);
